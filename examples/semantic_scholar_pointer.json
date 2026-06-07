@@ -1,0 +1,11 @@
+{
+  "id": "mem_semantic_scholar_key_pointer",
+  "kind": "semantic",
+  "title": "Semantic Scholar API key location",
+  "text": "Semantic Scholar API key exists. Use env var S2_API_KEY. Header: x-api-key. Stored on Ollie/CherryRd in macOS Keychain service semantic-scholar-api-key, account rick-stevens-ai, and ~/.openclaw/.env. Verified HTTP 200 on 2026-06-07. Do not store or transmit the raw key in memory/chat/logs.",
+  "tags": ["semantic-scholar", "secret-pointer", "s2", "api"],
+  "scope": {"owner": "rick", "agent": "ollie", "visibility": "shared"},
+  "metadata": {"verified": true, "verified_date": "2026-06-07"},
+  "source": {"binding": "file", "path": "TOOLS.md"},
+  "salience": 0.8
+}

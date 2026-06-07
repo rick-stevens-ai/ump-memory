@@ -1,0 +1,25 @@
+[project]
+name = "ump-memory"
+version = "0.1.0"
+description = "Reference Universal Memory Protocol (UMP) memory store with file, CLI, and HTTP bindings"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Rick Stevens AI Workspace"}]
+dependencies = []
+
+[project.optional-dependencies]
+server = ["fastapi>=0.110", "uvicorn>=0.27"]
+test = ["pytest>=8.0"]
+
+[project.scripts]
+ump-memory = "ump_memory.cli:main"
+ump-memory-server = "ump_memory.server:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

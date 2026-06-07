@@ -1,0 +1,10 @@
+{
+  "id": "mem_ump_policy_not_only_there",
+  "kind": "procedural",
+  "title": "Use UMP, but not only UMP",
+  "text": "Rick's standing memory policy: put suitable durable/shared facts into UMP as an additional cross-agent memory layer, but never only there. Keep file-backed sources of truth too: MEMORY.md, TOOLS.md, daily memory, Keychain/env files for secrets, and mailbox/Sibline context where relevant.",
+  "tags": ["ump", "memory-policy", "ollie", "kukla"],
+  "scope": {"owner": "rick", "visibility": "shared"},
+  "source": {"binding": "telegram", "date": "2026-06-07"},
+  "salience": 0.95
+}
