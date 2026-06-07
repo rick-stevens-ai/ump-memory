@@ -13,5 +13,5 @@ HTTP 200 on 2026-06-07.
 Bad:
 
 ```text
-S2_API_KEY=actual-secret-value
+S2_API_KEY=<redacted>
 ```
