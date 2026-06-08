@@ -15,6 +15,8 @@ test = ["pytest>=8.0"]
 [project.scripts]
 ump-memory = "ump_memory.cli:main"
 ump-memory-server = "ump_memory.server:main"
+ump-memory-index = "ump_memory.multimodal.indexer:_cli"
+ump-memory-search-server = "ump_memory.multimodal.server:_cli"
 
 [build-system]
 requires = ["hatchling"]
